@@ -1,3 +1,3 @@
-- name: try ping2
+- name: try ping3
   ping:
 
