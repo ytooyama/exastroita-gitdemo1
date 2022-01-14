@@ -1,0 +1,3 @@
+- name: 再起動して接続が確立後 60 秒待機する
+  reboot:
+    post_reboot_delay: 60

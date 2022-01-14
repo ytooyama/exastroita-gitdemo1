@@ -1,0 +1,8 @@
+- name: Update the Packages
+  apt:
+    update_cache: yes
+    upgrade: safe
+- name: autoclean and autoremove
+  apt:
+    autoclean: yes
+    autoremove: yes
