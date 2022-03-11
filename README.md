@@ -5,7 +5,8 @@ Exastro ITAでGit連携をするためのデモ用のリポジトリーです。
 
 | ファイル | 概要 |
 |--|--|
-| apt-package-docker.yaml | docker.ioのインストール、sysytemdコマンドによるサービスの有効化と再起動 |
+| apt-package-docker.yaml | docker.ioパッケージのインストール、sysytemdコマンドによるサービスの有効化と再起動 |
+| apt-package-nginx.yaml | nginxパッケージのインストール、sysytemdコマンドによるサービスの有効化と再起動 |
 | apt.yaml | パッケージアップデート |
 | docker.yaml | Dockerのインストール(Rancherノードのセットアップ用) |
 | ping.yaml | ノードにpingを実行する |
