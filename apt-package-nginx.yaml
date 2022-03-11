@@ -1,0 +1,14 @@
+- name: Update the Packages
+  apt:
+    update_cache: yes
+    upgrade: safe
+- name: Install NGINX Web Server packages
+  apt: 
+    name:
+      - nginx
+    update_cache: yes
+- name: Restart and Enable NGINX services
+  systemd:
+    name: nginx
+    state: restarted
+    daemon_reload: yes
